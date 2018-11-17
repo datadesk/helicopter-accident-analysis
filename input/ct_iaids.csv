@@ -1,0 +1,953 @@
+ct_name,code_iaids,meaning,seq,ntsb_type,ntsb_code,avn_code,ntsb_codes_more,not_for_ntsb_use,eADMS_use,notes
+,"FOIA","FOIA",4,,,,,0,1,"Special Handling"
+"ct_acft_awy_cert","LTSP","Special Light-Sport",12,"N","12",,,0,1,
+"ct_acft_awy_cert","OTH","Other",40,"N",,,,0,1,
+"ct_acft_awy_cert","SPE","Experimental",11,"N","11",,,0,1,
+"ct_acft_awy_cert","SPL","Limited",8,"N","08",,,0,1,
+"ct_acft_awy_cert","SPR","Restricted",7,"N","07",,,0,1,
+"ct_acft_awy_cert","SPS","Special Flight",10,"N","10",,,0,1,
+"ct_acft_awy_cert","SPV","Provisional",9,"N","09",,,0,1,
+"ct_acft_awy_cert","SPX","Experimental Light Sport",13,"N","13",,,0,1,
+"ct_acft_awy_cert","STA","Aerobatic",21,"N","01",,,0,1,
+"ct_acft_awy_cert","STB","Balloon",22,"N","02",,,0,1,
+"ct_acft_awy_cert","STC","Commuter",23,"N","03",,,0,1,
+"ct_acft_awy_cert","STN","Normal",20,"N","00",,,0,1,
+"ct_acft_awy_cert","STT","Transport",24,"N","04",,,0,1,
+"ct_acft_awy_cert","STU","Utility",25,"N","05",,,0,1,
+"ct_acft_awy_cert0","COA","Certificate of Authorization or Waiver (COA)",2,"N","02",,,0,1,
+"ct_acft_awy_cert0","NON","None",0,"N","00",,,0,1,
+"ct_acft_awy_cert0","UNK","Unknown",1,"N","01",,,0,1,
+"ct_acft_cat","AIR","Airplane",1,"N","01",,,0,1,
+"ct_acft_cat","BALL","Balloon",4,"N","04",,,0,1,
+"ct_acft_cat","BLIM","Blimp",5,"N","05",,,0,1,
+"ct_acft_cat","GLI","Glider",3,"N","03",,,0,1,
+"ct_acft_cat","GYRO","Gyroplane",7,"N","07",,,0,1,
+"ct_acft_cat","HELI","Helicopter",2,"N","02",,,0,1,
+"ct_acft_cat","PLFT","Powered-Lift",10,"N","10",,,0,1,
+"ct_acft_cat","PPAR","Powered Parachute",8,"N","08",,,0,1,
+"ct_acft_cat","RCKT","Rocket",11,"N","11",,,0,1,
+"ct_acft_cat","ULTR","Ultralight",6,"N","06",,,0,1,
+"ct_acft_cat","UNK","Unknown",0,"N","00",,,0,1,
+"ct_acft_cat","WSFT","Weight-Shift",9,"N","09",,,0,1,
+"ct_acft_expl","BOTH","Both",4,"N",,,,0,1,
+"ct_acft_expl","GRD","On-Ground",3,"N",,,,0,1,
+"ct_acft_expl","IFLT","In-Flight",2,"N",,,,0,1,
+"ct_acft_expl","NONE","None",1,"N",,,,0,1,
+"ct_acft_expl","UNK","Unknown",0,"N",,,,0,1,
+"ct_acft_expl","UNKT","Explosion At Unknown Time",5,"N",,,,0,1,
+"ct_acft_fire","BOTH","Both",4,"N",,,,0,1,
+"ct_acft_fire","GRD","On-Ground",3,"N",,,,0,1,
+"ct_acft_fire","IFLT","In-Flight",2,"N",,,,0,1,
+"ct_acft_fire","NONE","None",1,"N",,,,0,1,
+"ct_acft_fire","UNK","Unknown",0,"N",,,,0,1,
+"ct_acft_fire","UNKT","Fire At Unknown Time",5,"N",,,,0,1,
+"ct_acft_reg_cls     ","FNFN","Foreign Reg./Foreign Soil",,,," ",,0,0,"Keep for archived data"
+"ct_acft_reg_cls     ","FNUS","Foreign Registered/U.S. Soil",4,"N","04"," ",,0,0,"Keep for archived data"
+"ct_acft_reg_cls     ","MIL","Military",5,"N","05"," ",,0,0,"Keep for archived data"
+"ct_acft_reg_cls     ","NREG","Not Registered",6,"N","06"," ",,0,0,"Keep for archived data"
+"ct_acft_reg_cls     ","UNK","Unknown",0,"N","00"," ",,0,0,"Keep for archived data"
+"ct_acft_reg_cls     ","USFN","U.S. Registered/Foreign Soil",2,"N","02"," ",,0,0,"Keep for archived data"
+"ct_acft_reg_cls     ","USFO","U.S. Registered/Foreign Oper.",3,"N","03"," ",,0,0,"Keep for archived data"
+"ct_acft_reg_cls     ","USUS","U.S. Registered/U.S. Soil",1,"N","01"," ",,0,0,"Keep for archived data"
+"ct_addtl_equip","ADSB","ADS-B",13,"N",,,,0,1,
+"ct_addtl_equip","AFPC","Airframe Parachute",4,"N",,,,0,1,
+"ct_addtl_equip","AOAI","Angle of Attack Indicator",3,"N",,,,0,1,
+"ct_addtl_equip","AUTO","Auto-pilot",5,"N",,,,0,1,
+"ct_addtl_equip","DREC","Data Recorder",6,"N",,,,0,1,
+"ct_addtl_equip","EFB","Electronic Flight Bag or Handheld Device",14,"N",,,,0,1,
+"ct_addtl_equip","EMFD","Electronic Multifunction Display",7,"N",,,,0,1,
+"ct_addtl_equip","EPFD","Electronic Primary Flight Display",8,"N",,,,0,1,
+"ct_addtl_equip","HGPS","Handheld GPS",9,"N",,,,0,1,
+"ct_addtl_equip","HUPD","Heads Up Display",10,"N",,,,0,1,
+"ct_addtl_equip","OBWX","Onboard Weather",11,"N",,,,0,1,
+"ct_addtl_equip","SATD","Satellite Tracking Device",12,"N",,,,0,1,
+"ct_addtl_equip","STWS","Stall Warning System",2,"N",,,,0,1,
+"ct_addtl_equip","VRD","Video Recording Device",15,"N",,,,0,1,
+"ct_addtl_equip0","NONE","None",0,,,,,0,1,
+"ct_addtl_equip0","UNK","Unknown",1,,,,,0,1,
+"ct_afm_hrs_since    ","ACCI","Time of Accident",0,"N","0 ","0",,0,1,
+"ct_afm_hrs_since    ","INSP","Last Inspection",0,"N","0 ","0",,0,1,
+"ct_air_med","DISC","Discretionary",,,,,,0,1,
+"ct_air_med","MEDE","Medical Emergency",,,,,,0,1,
+"ct_air_med","ORGT","Organ Transport",,,,,,0,1,
+"ct_aircar_cert","136","Commercial Air Tour (136)",7,"N",,,,0,1,
+"ct_aircar_cert","141","Pilot School (141)",9,"N",,,,0,1,
+"ct_aircar_cert","AGR","Agricultural Aircraft (137)",8,"N",,,,0,1,
+"ct_aircar_cert","CARG","Air Cargo",0,"N","03"," ",,0,0,"Keep for archived data"
+"ct_aircar_cert","COA","Certificate of Authorization or Waiver (COA)",11,"N",,,,0,1,
+"ct_aircar_cert","COAC","Commuter Air Carrier (135)",5,"N","05"," ",,0,1,
+"ct_aircar_cert","CST","Commercial Space Transportation License",13,"N",,,,0,1,
+"ct_aircar_cert","CSTE","Commercial Space Transp. Experimental Permit",12,"N",,,,0,1,
+"ct_aircar_cert","EXTL","Rotorcraft External Load (133)",4,"N",,,,0,1,
+"ct_aircar_cert","F121","Flag carrier (121)",1,"N","01"," ",,0,1,
+"ct_aircar_cert","F129","Foreign Air Carrier (129)",3,,," ",,0,1,
+"ct_aircar_cert","FOWN","Fractional Ownership",10,,,,,0,1,"New"
+"ct_aircar_cert","H127","Large Helicopter (127)",0,"N","04"," ",,0,0,"Keep for archived data"
+"ct_aircar_cert","OOLA","Other Operator of Large Aircraft",14,"N",,,,0,1,
+"ct_aircar_cert","S121","Supplemental",2,"N","02"," ",,0,1,
+"ct_aircar_cert","TAXI","On-demand Air Taxi (135)",6,"N","06"," ",,0,1,
+"ct_airspc_type      ","ADVA","Airport Advisory Area",5,"N","05"," ",,0,1,
+"ct_airspc_type      ","ATC","Air Traffic Control",0,"N","18"," ",,0,1,
+"ct_airspc_type      ","CLA","Class A",6,"N","06"," ",,0,1,
+"ct_airspc_type      ","CLB","Class B",7,"N","07"," ",,0,1,
+"ct_airspc_type      ","CLC","Class C",0,"N","19"," ",,0,1,
+"ct_airspc_type      ","CLD","Class D",3,"N","03"," ","03,04",0,1,
+"ct_airspc_type      ","CLE","Class E",2,"N","02"," ",,0,1,
+"ct_airspc_type      ","CLG","Class G",1,"N","01"," ",,0,1,
+"ct_airspc_type      ","DEMA","Demo Area",14,"N","14"," ",,0,1,
+"ct_airspc_type      ","MOA","Military Operation Area",12,"N","12"," ",,0,1,
+"ct_airspc_type      ","PROA","Prohibited Area",10,"N","10"," ",,0,1,
+"ct_airspc_type      ","PT93","FAR 93",16,"N","16"," ",,0,1,
+"ct_airspc_type      ","RESA","Restricted Area",11,"N","11"," ",,0,1,
+"ct_airspc_type      ","SJTA","Student Jet Training Area",13,"N","13"," ",,0,1,
+"ct_airspc_type      ","SPCL","Special",0,"N","17"," ",,0,1,
+"ct_airspc_type      ","TRS2","TRSA",8,"N","08"," ",,0,1,
+"ct_airspc_type      ","TRS3","TRSA",9,"N","09"," ",,0,0,"Redundant with TRSA"
+"ct_airspc_type      ","WARA","Warning Area",15,"N","15"," ",,0,1,
+"ct_airspc_type0     ","UNK","Unknown",0,"N","00"," ",,0,1,
+"ct_apt_loc          ","OFAP","Off Airport/Airstrip",1,"N","01"," ",,0,1,
+"ct_apt_loc          ","ONAP","On Airport/Airstrip",2,"N","02"," ",,0,1,
+"ct_apt_loc          ","ONAS","On Airstrip",3,"N","03"," ",,0,0,"ONAS converted to ONAP"
+"ct_apt_loc          ","UNK","Unknown",0,"N","00"," ",,0,0,"Keep for archived data"
+"ct_carb_fuel_inj","CARB","Carburetor",,,," ",,0,1,
+"ct_carb_fuel_inj","FINJ","Fuel Injected",,,," ",,0,1,
+"ct_cictt","AMAN","Abrupt Maneuver",,,,,,0,1,
+"ct_cictt","ARC","Abnormal Runway Contact",,,,,,0,1,
+"ct_cictt","CABN","Cabin Safety Events",,,,,,0,1,
+"ct_cictt","CFIT","Controlled Flight into Terrain",,,,,,0,1,
+"ct_cictt","EVAC","Evacuation",,,,,,0,1,
+"ct_cictt","FNI","Fire/Smoke (Non-Impact)",,,,,,0,1,
+"ct_cictt","FPST","Fire/Smoke (Post-Impact)",,,,,,0,1,
+"ct_cictt","FUEL","Fuel Related",,,,,,0,1,
+"ct_cictt","GCOL","Ground Collision",,,,,,0,1,
+"ct_cictt","HZWX","Windshear or Thunderstorm",,,,,,0,1,
+"ct_cictt","ICE","Icing",,,,,,0,1,
+"ct_cictt","LALT","Low Altitude Operation",,,,,,0,1,
+"ct_cictt","LOCG","Loss of Control - Ground",,,,,,0,1,
+"ct_cictt","LOCI","Loss of Control - Inflight",,,,,,0,1,
+"ct_cictt","MAC","Midair/Near Midair Collision",,,,,,0,1,
+"ct_cictt","OTHR","Other",,,,,,0,1,
+"ct_cictt","RAMP","Ground Handling",,,,,,0,1,
+"ct_cictt","RE","Runway Excursion",,,,,,0,1,
+"ct_cictt","RIO","Runway Incursion - Other",,,,,,0,1,
+"ct_cictt","RIVA","Runway Incur - Vehicle or A/C",,,,,,0,1,
+"ct_cictt","SEC","Security Related",,,,,,0,1,
+"ct_cictt","SFNP","Sys/Comp Flr  (Non-Powerplant)",,,,,,0,1,
+"ct_cictt","SFPP","Sys/Comp Flr  (Powerplant)",,,,,,0,1,
+"ct_cictt","TURB","Turbulence Encounter",,,,,,0,1,
+"ct_cictt","UNK","Unknown or Undetermined",,,,,,0,1,
+"ct_cictt","USOS","Undershoot/Overshoot",,,,,,0,1,
+"ct_crew_cat","CABN","Cabin Crew",9,,,,,0,1,
+"ct_crew_cat","CPLT","Co-Pilot",4,,,,,0,1,
+"ct_crew_cat","DSTU","Student Pilot",7,,,,,0,1,
+"ct_crew_cat","FENG","Flight Engineer",5,,,,,0,1,
+"ct_crew_cat","FLTI","Flight Instructor",6,,,,,0,1,
+"ct_crew_cat","KPLT","Check Pilot",3,,,,,0,1,
+"ct_crew_cat","OTHR","Other Flight Crew",10,,,,,0,1,
+"ct_crew_cat","PASS","Passenger",1,,,,,0,1,
+"ct_crew_cat","PLT","Pilot",0,,,,,0,1,
+"ct_crew_cat","PRPS","Pilot-Rated Passenger",2,,,,,0,1,
+"ct_crew_cert_code","ATP","Airline Transport",4,"N","04"," ",,0,1,
+"ct_crew_cert_code","CFI","Flight Instructor",5,"N","05"," ",,0,1,
+"ct_crew_cert_code","COMM","Commercial",3,"N","03"," ",,0,1,
+"ct_crew_cert_code","FE","Flight Engineer",6,"N","06"," ",,0,1,
+"ct_crew_cert_code","FORN","Foreign",9,"N","09"," ",,0,1,
+"ct_crew_cert_code","MIL","Military",7,"N","07"," ",,0,1,
+"ct_crew_cert_code","PRI","Private",2,"N","02"," ",,0,1,
+"ct_crew_cert_code","REC","Recreational",0,"N","00"," ",,0,1,
+"ct_crew_cert_code","SPRT","Sport Pilot",,,,,,0,1,"New"
+"ct_crew_cert_code","STU","Student",1,"N","01"," ",,0,1,
+"ct_crew_cert_code0","NONE","None",8,"N","08"," ",,0,1,
+"ct_crew_prof","AM","Aircraft Mechanic",4,"N","04"," ",,0,0,"Keep for archived data"
+"ct_crew_prof","BUS","Business",5,"N","05"," ",,0,0,"Keep for archived data"
+"ct_crew_prof","CLGY","Clergy",10,"N","10"," ",,0,0,"Keep for archived data"
+"ct_crew_prof","DOCD","Doctor/Dentist",7,"N","07"," ",,0,0,"Keep for archived data"
+"ct_crew_prof","ENGR","Engineer",12,"N","12"," ",,0,0,"Keep for archived data"
+"ct_crew_prof","FARA","Farmer/Rancher",13,"N","13"," ",,0,0,"Keep for archived data"
+"ct_crew_prof","LAWY","Lawyer",6,"N","06"," ",,0,0,"Keep for archived data"
+"ct_crew_prof","N","No",,,,,,0,1,"New - Not Professional Pilot"
+"ct_crew_prof","OMIL","Other Military",3,"N","03"," ",,0,0,"Keep for archived data"
+"ct_crew_prof","PCIV","Civilian Pilot",1,"N","01"," ",,0,0,"Keep for archived data"
+"ct_crew_prof","PMIL","Military Pilot",2,"N","02"," ",,0,0,"Keep for archived data"
+"ct_crew_prof","POLI","Police",8,"N","08"," ",,0,0,"Keep for archived data"
+"ct_crew_prof","RET","Retired",14,"N","14"," ",,0,0,"Keep for archived data"
+"ct_crew_prof","STU","Student",9,"N","09"," ",,0,0,"Keep for archived data"
+"ct_crew_prof","TEAC","Teacher",11,"N","11"," ",,0,0,"Keep for archived data"
+"ct_crew_prof","UNK","Unknown",0,"N","00"," ",,0,1,
+"ct_crew_prof","Y","Yes",,,,,,0,1,"New - Professional Pilot"
+"ct_crew_rat_airpln  ","MEL","Multi-engine Land",3,"N","03"," ",,0,1,
+"ct_crew_rat_airpln  ","MES","Multi-engine Sea",5,"N","05"," ",,0,1,
+"ct_crew_rat_airpln  ","SEL","Single-engine Land",2,"N","02"," ",,0,1,
+"ct_crew_rat_airpln  ","SES","Single-engine Sea",4,"N","04"," ",,0,1,
+"ct_crew_rat_airpln0  ","NONE","None",1,"N","01"," ",,0,1,
+"ct_crew_rat_instruct","AME","Airplane Multi-engine",3,"N","03"," ",,0,1,
+"ct_crew_rat_instruct","ASE","Airplane Single-engine",2,"N","02"," ",,0,1,
+"ct_crew_rat_instruct","GLI","Glider",6,"N","06"," ",,0,1,
+"ct_crew_rat_instruct","GYRO","Gyroplane",5,"N","05"," ",,0,1,
+"ct_crew_rat_instruct","HELI","Helicopter",4,"N","04"," ",,0,1,
+"ct_crew_rat_instruct","IAIR","Instrument Airplane",7,"N","07"," ",,0,1,
+"ct_crew_rat_instruct","IHEL","Instrument Helicopter",8,"N","08"," ",,0,1,
+"ct_crew_rat_instruct","PLFT","Powered-Lift",9,,"09"," ",,0,1,
+"ct_crew_rat_instruct","SPRT","Sport Pilot",,,,,,0,1,"New"
+"ct_crew_rat_instruct0","NONE","None",1,"N","01"," ",,0,1,
+"ct_crew_rat_instrum ","APLN","Airplane",2,"N","02"," ",,0,1,
+"ct_crew_rat_instrum ","HELI","Helicopter",3,"N","03"," ",,0,1,
+"ct_crew_rat_instrum ","PLFT","Powered-Lift",,,," ",,0,1,
+"ct_crew_rat_instrum0 ","NONE","None",1,"N","01"," ",,0,1,
+"ct_crew_rat_roto    ","AIRS","Airship",4,"N","04"," ",,0,1,
+"ct_crew_rat_roto","BALL","Balloon",5,"N","05",,,0,1,
+"ct_crew_rat_roto    ","GLI","Glider",6,"N","06"," ",,0,1,
+"ct_crew_rat_roto    ","GYRO","Gyroplane",3,"N","03"," ",,0,1,
+"ct_crew_rat_roto    ","HELI","Helicopter",2,"N","02"," ",,0,1,
+"ct_crew_rat_roto    ","PLFT","Powered-Lift",,,," ",,0,1,
+"ct_crew_rat_roto0    ","NONE","None",1,"N","01"," ",,0,1,
+"ct_damage           ","DEST","Destroyed",4,"N","04"," ",,0,1,
+"ct_damage           ","MINR","Minor",2,"N","02"," ",,0,1,
+"ct_damage           ","NONE","None",1,"N","01"," ",,0,1,
+"ct_damage           ","SUBS","Substantial",3,"N","03"," ",,0,1,
+"ct_damage           ","UNK","Unknown",0,"N","00"," ",,0,1,
+"ct_dest_same_local  ","LOCL","dest & departure same, accident can occur anywhere",2,"N","02"," ",,0,1,
+"ct_dest_same_local  ","SAME","crash at destination city",1,"N","01"," ",,0,1,
+"ct_dom_int          ","DOM","Domestic",1,"N","01"," ",,0,1,
+"ct_dom_int          ","INT","International",2,"N","02"," ",,0,1,
+"ct_dom_int          ","UNK","Unknown",0,"N","00"," ",,0,0,"Keep for archived data"
+"ct_dow              ",,"Not Specified",,,,,,0,1,
+"ct_dow              ","FR","Friday",6,"C","FR"," ",,0,1,
+"ct_dow              ","MO","Monday",2,"C","MO"," ",,0,1,
+"ct_dow              ","SA","Saturday",7,"C","SA"," ",,0,1,
+"ct_dow              ","SU","Sunday",1,"C","SU"," ",,0,1,
+"ct_dow              ","TH","Thursday",5,"C","TH"," ",,0,1,
+"ct_dow              ","TU","Tuesday",3,"C","TU"," ",,0,1,
+"ct_dow              ","WE","Wednesday",4,"C","WE"," ",,0,1,
+"ct_elt_oper_no_reason","BATT","Battery expired/damaged/corroded",2,"N",,,,0,1,
+"ct_elt_oper_no_reason","FIRE","Fire damage",1,"N",,,,0,1,
+"ct_elt_oper_no_reason","IMPD","Impact damage",0,"N",,,,0,1,
+"ct_elt_oper_no_reason","OTHR","Other (explain)",4,"N",,,,0,1,
+"ct_elt_oper_no_reason","UNK","Unknown",3,"N",,,,0,1,
+"ct_elt_type","C126","C126",,,,,,0,1,"New"
+"ct_elt_type","C91","C91",,,,,,0,1,"New"
+"ct_elt_type","C91A","C91-A",,,,,,0,1,"New"
+"ct_elt_type","UNK","Unknown",,,,,,0,1,"New"
+"ct_eng_type","ELEC","Electric",9,"N","10",,,0,1,
+"ct_eng_type","HR","Hybrid Rocket",8,"N","09",,,0,1,
+"ct_eng_type","LR","Liquid Rocket",6,"N","07",,,0,1,
+"ct_eng_type","NONE","None",10,"N","11",,,0,1,
+"ct_eng_type","REC","Reciprocating",1,"N","01",,"01,02",0,1,
+"ct_eng_type","SR","Solid Rocket",7,"N","08",,,0,1,
+"ct_eng_type","TF","Turbo Fan",4,"N","05",,,0,1,
+"ct_eng_type","TJ","Turbo Jet",3,"N","04",,,0,1,
+"ct_eng_type","TP","Turbo Prop",2,"N","03",,,0,1,
+"ct_eng_type","TS","Turbo Shaft",5,"N","06",,,0,1,
+"ct_eng_type","UNK","Unknown",0,"N","00",,,0,1,
+"ct_ev_type          ","ACC","Accident",1,"N","01","A,B",,0,1,
+"ct_ev_type          ","INC","Incident",3,"N","02","C,G",,0,1,
+"ct_ev_type          ","OCC","Occurrence",5,"-","99","-",,0,1,
+"ct_expl_fire","BOTH","Ground and In-flight",23,"N","23",,,0,1,
+"ct_expl_fire","GRD","Ground",3,"N","03",,,0,1,
+"ct_expl_fire","IFLT","In-flight",2,"N","02",,,0,1,
+"ct_expl_fire","NONE","None",1,"N","01",,,0,1,
+"ct_expl_fire","UNK","Unknown",0,"N","00",,,0,1,
+"ct_expl_fire","UORG","Unknown Origin",,"N",,,,0,1,
+"ct_fars             ","091","Part 91: General Aviation",1,"N","01"," ",,0,1,
+"ct_fars             ","091F","Part 91F: Special Flt Ops.",2,"N","02"," ",,0,0,"Keep for archived data"
+"ct_fars             ","091K","Part 91 Subpart K: Fractional",,,,,,0,1,"New"
+"ct_fars             ","103","Part 103: Ultralight",3,"N","03"," ",,0,1,
+"ct_fars","107","Part 107: Small UAS",16,,,,,0,1,"requested to be added on 8/29/2016"
+"ct_fars             ","121","Part 121: Air Carrier",5,"N","05"," ",,0,1,
+"ct_fars             ","125","Part 125: 20+ Pax,6000+ lbs",6,"N","06"," ",,0,1,
+"ct_fars             ","129","Part 129: Foreign",11,"N","11"," ",,0,1,
+"ct_fars             ","133","Part 133: Rotorcraft Ext. Load",8,"N","08"," ",,0,1,
+"ct_fars             ","135","Part 135: Air Taxi & Commuter",9,"N","09"," ",,0,1,
+"ct_fars             ","137","Part 137: Agricultural",10,"N","10"," ",,0,1,
+"ct_fars","415","Part 415: Commercial Space Flight",12,"N","01",,,0,1,
+"ct_fars","431","Part 431: Commercial Space Flight",13,"N","01",,,0,1,
+"ct_fars","435","Part 435: Commercial Space Flight",14,"N","01",,,0,1,
+"ct_fars","437","Part 437: Commercial Space Flight",15,"N","01",,,0,1,
+"ct_fars             ","ARMF","Armed Forces",0,,,,,0,1,
+"ct_fars             ","NUSC","Non-U.S., Commercial",0," ","  "," ",,0,1,
+"ct_fars             ","NUSN","Non-U.S., Non-Commercial",0," ","  "," ",,0,1,
+"ct_fars             ","PUBU","Public Aircraft",0,,,,,0,1,
+"ct_fars             ","UNK","Unknown",0,"N","00"," ",,0,1,
+"ct_flt_plan_filed   ","CVFR","Company VFR",5,"N","05"," ",,0,1,
+"ct_flt_plan_filed   ","IFR","IFR",3,"N","03"," ",,0,1,
+"ct_flt_plan_filed   ","MVFR","Military VFR",6,"N","06"," ",,0,1,
+"ct_flt_plan_filed   ","NONE","None",1,"N","01"," ",,0,1,
+"ct_flt_plan_filed   ","UNK","Unknown",0,"N","00"," ",,0,1,
+"ct_flt_plan_filed   ","VFIF","VFR/IFR",4,"N","04"," ",,0,1,
+"ct_flt_plan_filed   ","VFR","VFR",2,"N","02"," ",,0,1,
+"ct_gust             ","N","Not Gusting",1,"N","01"," ",,0,1,
+"ct_gust             ","U","Unknown",0,"N","00"," ",,0,1,
+"ct_gust             ","Y","Gusting",,,,,,0,1,
+"ct_icing_actual_amt","LIGT","Light",3,"N",,,,0,1,
+"ct_icing_actual_amt","MODT","Moderate",4,"N",,,,0,1,
+"ct_icing_actual_amt","NONE","None",1,"N",,,,0,1,
+"ct_icing_actual_amt","SEVR","Severe",5,"N",,,,0,1,
+"ct_icing_actual_amt","TRAC","Trace",2,"N",,,,0,1,
+"ct_icing_actual_amt","UNKN","Unknown",6,"N",,,,0,1,
+"ct_icing_actual_type","CLR","Clear",3,"N",,,,0,1,
+"ct_icing_actual_type","MIXD","Mixed",4,"N",,,,0,1,
+"ct_icing_actual_type","NA","N/A",1,"N",,,,0,1,
+"ct_icing_actual_type","RIME","Rime",2,"N",,,,0,1,
+"ct_icing_actual_type","UNKN","Unknown",5,"N",,,,0,1,
+"ct_icing_forecast_amt","LIGT","Light",3,"N",,,,0,1,
+"ct_icing_forecast_amt","MODT","Moderate",4,"N",,,,0,1,
+"ct_icing_forecast_amt","NONE","None",1,"N",,,,0,1,
+"ct_icing_forecast_amt","SEVR","Severe",5,"N",,,,0,1,
+"ct_icing_forecast_amt","TRAC","Trace",2,"N",,,,0,1,
+"ct_icing_forecast_amt","UNKN","Unknown",6,"N",,,,0,1,
+"ct_icing_forecast_type","CLR","Clear",3,"N",,,,0,1,
+"ct_icing_forecast_type","MIXD","Mixed",4,"N",,,,0,1,
+"ct_icing_forecast_type","NA","N/A",1,"N",,,,0,1,
+"ct_icing_forecast_type","RIME","Rime",2,"N",,,,0,1,
+"ct_icing_forecast_type","UNKN","Unknown",5,"N",,,,0,1,
+"ct_inj_ix           ","FATL","Fatal",4,"N","04"," ",,0,1,
+"ct_inj_ix           ","MINR","Minor",2,"N","02"," ",,0,1,
+"ct_inj_ix           ","NONE","None",1,"N","01"," ",,0,1,
+"ct_inj_ix           ","SERS","Serious",3,"N","03"," ",,0,1,
+"ct_inj_ix","UNKN","Unknown",5,"N","05",,,0,1,
+"ct_instm_appr       ","ADF","ADF/NDB",2,"N","02","ADF",,0,1,
+"ct_instm_appr       ","ASR","ASR",13,"N","13","ASR",,0,1,
+"ct_instm_appr       ","CIRC","Circling",18,"N","18"," ",,0,1,
+"ct_instm_appr       ","CNTC","Contact",17,"N","17"," ",,0,1,
+"ct_instm_appr       ","GPS","Global Positioning System",,,,,,0,1,
+"ct_instm_appr       ","ILSB","LOC-backcourse",9,"N","09","IBK",,0,1,
+"ct_instm_appr       ","ILSF","ILS",7,"N","07","IBF",,0,1,
+"ct_instm_appr       ","LDA","LDA",12,"N","12"," ",,0,1,
+"ct_instm_appr       ","LOC","Localizer Only",8,"N","08","LOC",,0,1,
+"ct_instm_appr       ","PAR","PAR",14,"N","14","PAR",,0,1,
+"ct_instm_appr       ","PRAC","Practice",19,"N","19"," ",,0,1,
+"ct_instm_appr       ","RNAV","RNAV",10,"N","10","RVN",,0,1,
+"ct_instm_appr       ","SDF","SDF",3,"N","03","SDF",,0,1,
+"ct_instm_appr       ","SIDE","Sidestep",15,"N","15"," ",,0,1,
+"ct_instm_appr       ","VDME","VOR/DME",5,"N","05","VOD",,0,1,
+"ct_instm_appr       ","VIS","Visual",16,"N","16","VIS",,0,1,
+"ct_instm_appr       ","VOR","VOR",4,"N","04","VOR",,0,1,
+"ct_instm_appr0     ","NONE","None",1,"N","01"," ",,0,1,"New"
+"ct_instm_appr1       ","UNK","Unknown",0,"N","00"," ",,0,1,"New"
+"ct_inv_agy          ","F","FAA",2,"N","02"," ",,0,0,"Keep for archived data"
+"ct_inv_agy          ","N","NTSB",1,"N","01"," ",,0,1,
+"ct_inv_agy          ","O","Foreign",,,,,,0,1,"New"
+"ct_inv_agy          ","U","Unknown",0,"N","00"," ",,0,0,"Keep for archived data"
+"ct_landing_gear     ","AMP","Amphibian",0,"N","06"," ",,0,1,
+"ct_landing_gear     ","EFLT","Emergency Float",3,"N","09"," ",,0,1,
+"ct_landing_gear     ","FLOT","Float",2,"N","08"," ",,0,1,
+"ct_landing_gear     ","HISK","High Skid",7,"N","13"," ",,0,1,
+"ct_landing_gear     ","HULL","Hull",1,"N","07"," ",,0,1,
+"ct_landing_gear","OTHR","Other Launch/Recovery System",8,"N",,,,0,1,
+"ct_landing_gear     ","SKI","Ski",4,"N","10"," ",,0,1,
+"ct_landing_gear     ","SKID","Skid",6,"N","12"," ",,0,1,
+"ct_landing_gear     ","SKWH","Ski/wheel",5,"N","11"," ",,0,1,
+"ct_landing_gear0","NONE","None",0,"N","00"," ",,0,1,"New"
+"ct_landing_gear0  ","UNK","Unknown",1,"N","00"," ",,0,1,"New"
+"ct_landing_gear1    ","N/A","N/A",3,"N","01",,,0,1,"New"
+"ct_landing_gear1 ","TAIL","Tailwheel",1,"N","03"," ","03,04,05",0,1,"New"
+"ct_landing_gear1    ","TAND","Tandem",2,"N",,,,0,1,"New"
+"ct_landing_gear1 ","TRI","Tricycle",0,"N","01"," ","01,02",0,1,"New"
+"ct_landing_surf     ","ASPH","Asphalt",2,"N","02"," ",,0,1,
+"ct_landing_surf     ","CONC","Concrete",3,"N","03"," ",,0,1,
+"ct_landing_surf     ","DIRT","Dirt",5,"N","05"," ",,0,1,
+"ct_landing_surf     ","GRAS","Grass/turf",6,"N","06"," ",,0,1,
+"ct_landing_surf     ","GRAV","Gravel",4,"N","04"," ",,0,1,
+"ct_landing_surf     ","ICE","Ice",8,"N","08"," ",,0,1,
+"ct_landing_surf     ","MACA","Macadam",1,"N","01"," ",,0,1,
+"ct_landing_surf     ","MTWO","Metal/Wood",10,"N","10"," ",,0,1,
+"ct_landing_surf     ","SNOW","Snow",7,"N","07"," ",,0,1,
+"ct_landing_surf     ","WATE","Water",9,"N","09"," ",,0,1,
+"ct_landing_surf0     ","N/A","N/A",11,"N","11","-",,0,1,"New"
+"ct_landing_surf1     ","UNK","Unknown",0,"N","00"," ",,0,1,"New"
+"ct_light_cond       ","DAWN","Dawn",,"N","01"," ",,0,1,
+"ct_light_cond       ","DAYL","Day",1,"N","02"," ",,0,1,
+"ct_light_cond       ","DUSK","Dusk",2,"N","05"," ",,0,1,
+"ct_light_cond       ","NBRT","Night/Bright",4,"N","04"," ",,0,1,
+"ct_light_cond       ","NDRK","Night/Dark",5,"N","03"," ",,0,1,
+"ct_light_cond       ","NITE","Night",3,,," ",,0,1,
+"ct_light_cond       ","NR","Not Reported",6,"N","00"," ",,0,1,
+"ct_load_desc        ","CARG","Cargo",3,"N","03"," ",,0,0,"Keep for archived data"
+"ct_load_desc        ","CHEM","Chemicals",9,"N","09"," ",,0,0,"Keep for archived data"
+"ct_load_desc        ","EXTO","Other External",6,"N","06"," ",,0,0,"Keep for archived data"
+"ct_load_desc        ","ILLC","Illegal Cargo",11,"N","11"," ",,0,0,"Keep for archived data"
+"ct_load_desc        ","LIVS","Livestock",10,"N","10"," ",,0,0,"Keep for archived data"
+"ct_load_desc        ","NONE","None",1,"N","01"," ",,0,0,"Keep for archived data"
+"ct_load_desc        ","PARA","Parachutists",7,"N","07"," ",,0,0,"Keep for archived data"
+"ct_load_desc        ","PAX","Passengers",2,"N","02"," ",,0,0,"Keep for archived data"
+"ct_load_desc        ","TOWB","Towing Banner",5,"N","05"," ",,0,0,"Keep for archived data"
+"ct_load_desc        ","TOWG","Towing Glider",4,"N","04"," ",,0,0,"Keep for archived data"
+"ct_load_desc        ","UNK","Unknown",0,"N","00"," ",,0,0,"Keep for archived data"
+"ct_load_desc        ","UNKA","Unknown/NA",12,"N","12"," ",,0,0,"Keep for archived data"
+"ct_load_desc        ","WATE","Water",8,"N","08"," ",,0,0,"Keep for archived data"
+"ct_med_certf","BASC","BasicMed",5,"N",,,,0,1,
+"ct_med_certf        ","CL1","Class 1",2,"N","02"," ",,0,1,
+"ct_med_certf        ","CL2","Class 2",3,"N","03"," ",,0,1,
+"ct_med_certf        ","CL3","Class 3",4,"N","04"," ",,0,1,
+"ct_med_certf        ","NONE","None",1,"N","01"," ",,0,1,
+"ct_med_certf        ","SPRT","Sport Pilot",,,,,,0,1,"New"
+"ct_med_certf        ","UNK","Unknown",0,"N","00"," ",,0,1,
+"ct_med_crtf_vldty   ","EXP","Expired",4,"N","04"," ",,0,0,"Keep for archived data"
+"ct_med_crtf_vldty   ","NONE","None",5,"N","05"," ",,0,1,
+"ct_med_crtf_vldty   ","NV","Invalid Medical for flight",3,"N","03"," ",,0,0,"Keep for archived data"
+"ct_med_crtf_vldty   ","UNK","Unknown",0,"N","00"," ",,0,1,
+"ct_med_crtf_vldty   ","VNOW","Valid Medical--no waivers/lim.",1,"N","01"," ",,0,0,"Keep for archived data"
+"ct_med_crtf_vldty   ","VWW","Valid Medical--w/ waivers/lim.",2,"N","02"," ",,0,0,"Keep for archived data"
+"ct_med_crtf_vldty   ","WOWL","Without Waivers/Limitations",,,," ",,0,1,
+"ct_med_crtf_vldty","WTLS","Waiver Time Limited Special",,,,,,0,1,
+"ct_med_crtf_vldty   ","WWL","With Waivers/Limitations",,,," ",,0,1,
+"ct_notify_ev","CREW","Crew incapacitation",,,,,,0,1,
+"ct_notify_ev","DISF","Display failure",,,,,,0,1,
+"ct_notify_ev","ELEF","Electrical failure",,,,,,0,1,
+"ct_notify_ev","EVAC","Evacuation",,,,,,0,1,
+"ct_notify_ev","FCTL","Flight control malfunction",1,"N",,,,0,1,
+"ct_notify_ev","FIRE","In-flight fire",,,,,,0,1,
+"ct_notify_ev","HYDF","Hydraulic failure",,,,,,0,1,
+"ct_notify_ev","MENF","Multiple engine failure",,,,,,0,1,
+"ct_notify_ev","MISA","Missing aircraft",,,,,,0,1,
+"ct_notify_ev","OTHR","Other",,,,,,0,1,
+"ct_notify_ev","PDAM","Property damage",,,,,,0,1,
+"ct_notify_ev","PROP","Propeller failure",,,,,,0,1,
+"ct_notify_ev","ROTD","Rotor damage",,,,,,0,1,
+"ct_notify_ev","RUNI","Runway incursion",,,,,,0,1,
+"ct_notify_ev","TCAS","ACAS/TCAS RA",,,,,,0,1,
+"ct_notify_ev","UEF","Uncontained engine failure",,,,,,0,1,
+"ct_notify_ev","WRUN","Wrong runway",,,,,,0,1,
+"ct_occ_evnt","BrSk","Birdstrike",0,,,,,0,1,
+"ct_occ_evnt","CbnS","Cabin safety event",1,,,,,0,1,
+"ct_occ_evnt","CsDv","Course deviation",2,,,,,0,1,
+"ct_occ_evnt","GndC","Ground collision",3,,,,,0,1,
+"ct_occ_evnt","LCGd","Loss of control on ground",5,,,,,0,1,
+"ct_occ_evnt","LGCl","Landing gear collapse",4,,,,,0,1,
+"ct_occ_evnt","Othr","Miscellaneous/other",7,,,,,0,1,
+"ct_occ_evnt","SysF","Sys/Comp malf/fail (non-power)",6,,,,,0,1,
+"ct_occ_na_reason","FgnE","Foreign event, no Accredited Rep. assigned",3,,,,,0,1,
+"ct_occ_na_reason","NoIF","No intent for flight",0,,,,,0,1,
+"ct_occ_na_reason","OTHR","Other",4,,,,,0,1,
+"ct_occ_na_reason","SDmg","Less than substantial damage / serious injury",1,,,,,0,1,
+"ct_occ_na_reason","UnAc","Unregistered aircraft (no registration required)",2,,,,,0,1,
+"ct_occ_pof","Aprh","Approach",3,,,,,0,1,
+"ct_occ_pof","EnRt","Enroute",2,,,,,0,1,
+"ct_occ_pof","Lndg","Landing",4,,,,,0,1,
+"ct_occ_pof","Othr","Other/Unknown",5,,,,,0,1,
+"ct_occ_pof","StTx","Standing/Taxi",0,,,,,0,1,
+"ct_occ_pof","ToIc","Takeoff/Initial climb",1,,,,,0,1,
+"ct_office","ANC","Alaska Regional Office",,,,,,0,1,
+"ct_office","ATL","Southern Regional Office",,,,,,0,1,
+"ct_office","CEN","Central Region",,,,,,0,1,
+"ct_office","CHI","North Central Regional Office",,,,,,0,1,
+"ct_office","DCA","Major Investigation",,,,,,0,1,
+"ct_office","DEN","Central Mountain Regional Office",,,,,,0,1,
+"ct_office","DFW","South Central Regional Office",,,,,,0,1,
+"ct_office","ENG","Aviation Engineering",,,,,,0,1,
+"ct_office","ERA","Easter Region Aviation",,,,,,0,1,
+"ct_office","GAA","General Aviation Accidents",,,,,,0,1,
+"ct_office","IAD","Mid-Atlantic Regional Office",,,,,,0,1,
+"ct_office","LAX","Southwest Regional Office",,,,,,0,1,
+"ct_office","MIA","Southeast Regional Office",,,,,,0,1,
+"ct_office","NYC","Northeast Regional Office",,,,,,0,1,
+"ct_office","OPN","Operational Factors (Additional)",,,,,,0,1,
+"ct_office","OPS","Operational Factors",,,,,,0,1,
+"ct_office","SEA","Northwest Regional Office",,,,,,0,1,
+"ct_office","SUR","Survival Factors",,,,,,0,1,"Request by Nora Marshall on 4/7/2011"
+"ct_office","WPR","Western Pacific Region",,,,,,0,1,
+"ct_oper_cert        ","AGR","Agriculture",2,"N","02"," ",,0,1,
+"ct_oper_cert        ","EXTL","External Load",1,"N","01"," ",,0,1,
+"ct_oper_cert        ","UNK","Unknown",0,"N","00"," ",,0,0,"Keep for archived data"
+"ct_pax_cargo        ","CARG","Cargo",2,"N","02","T",,0,1,
+"ct_pax_cargo        ","MAIL","Mail",4,"N","04","R",,0,1,
+"ct_pax_cargo        ","PACA","Passenger/Cargo",3,"N","03","U",,0,0,"Keep for archived data"
+"ct_pax_cargo        ","PAX","Passenger Only",1,"N","01","S",,0,1,
+"ct_pax_cargo        ","UNK","Unknown",0,"N","00","W",,0,0,"Keep for archived data"
+"ct_phase_flt_spec   ","500","Standing",0,"N","50","-",,0,1,
+"ct_phase_flt_spec   ","501","Standing - pre-flight",0,"N","50","-",,0,1,
+"ct_phase_flt_spec   ","502","Standing - starting engine(s)",0,"N","50","-",,0,1,
+"ct_phase_flt_spec   ","503","Standing - engine(s) operating",0,"N","50","-",,0,1,
+"ct_phase_flt_spec   ","504","Standing - engine(s) not operating",0,"N","50","-",,0,1,
+"ct_phase_flt_spec   ","505","Standing - idling rotors",0,"N","50","-",,0,1,
+"ct_phase_flt_spec   ","510","Taxi",0,"N","51","-",,0,1,
+"ct_phase_flt_spec   ","511","Taxi - pushback/tow",0,"N","51","-",,0,1,
+"ct_phase_flt_spec   ","512","Taxi - to takeoff",0,"N","51","-",,0,1,
+"ct_phase_flt_spec   ","513","Taxi - from landing",0,"N","51","-",,0,1,
+"ct_phase_flt_spec   ","514","Taxi - aerial",0,"N","51","-",,0,1,
+"ct_phase_flt_spec   ","520","Takeoff",0,"N","52","-",,0,1,
+"ct_phase_flt_spec   ","521","Takeoff - roll/run",0,"N","52","-",,0,1,
+"ct_phase_flt_spec   ","522","Takeoff - initial climb",0,"N","52","-",,0,1,
+"ct_phase_flt_spec   ","523","Takeoff - aborted",0,"N","52","-",,0,1,
+"ct_phase_flt_spec   ","530","Climb",0,"N","53","-",,0,1,
+"ct_phase_flt_spec   ","531","Climb - to cruise",0,"N","53","-",,0,1,
+"ct_phase_flt_spec   ","540","Cruise",0,"N","54","-",,0,1,
+"ct_phase_flt_spec   ","541","Cruise - normal",0,"N","54","-",,0,1,
+"ct_phase_flt_spec   ","542","Maneuvering - holding (IFR)",0,"N","54","-",,0,1,
+"ct_phase_flt_spec   ","550","Descent",0,"N","55","-",,0,1,
+"ct_phase_flt_spec   ","551","Descent - normal",0,"N","55","-",,0,1,
+"ct_phase_flt_spec   ","552","Descent - emergency",0,"N","55","-",,0,1,
+"ct_phase_flt_spec   ","553","Descent - uncontrolled",0,"N","55","-",,0,1,
+"ct_phase_flt_spec   ","560","Approach",0,"N","56","-",,0,1,
+"ct_phase_flt_spec   ","561","Approach - VFR pattern - downwind",0,"N","56","-",,0,1,
+"ct_phase_flt_spec   ","562","Approach - VFR pattern - turn to base",0,"N","56","-",,0,1,
+"ct_phase_flt_spec   ","563","Approach - VFR pattern - base leg/base to final",0,"N","56","-",,0,1,
+"ct_phase_flt_spec   ","564","Approach - VFR pattern - final approach",0,"N","56","-",,0,1,
+"ct_phase_flt_spec   ","565","Go-around (VFR)",0,"N","56","-",,0,1,
+"ct_phase_flt_spec   ","566","Approach - Initial approach fix (IAF) to final app",0,"N","56","-",,0,1,
+"ct_phase_flt_spec   ","567","Approach - final approach fix (FAF)/outer marker t",0,"N","56","-",,0,1,
+"ct_phase_flt_spec   ","568","Approach - circling (IFR)",0,"N","56","-",,0,1,
+"ct_phase_flt_spec   ","569","Missed approach (IFR)",0,"N","56","-",,0,1,
+"ct_phase_flt_spec   ","570","Landing",0,"N","57","-",,0,1,
+"ct_phase_flt_spec   ","571","Landing - flare/touchdown",0,"N","57","-",,0,1,
+"ct_phase_flt_spec   ","572","Landing - roll",0,"N","57","-",,0,1,
+"ct_phase_flt_spec   ","573","Landing - aborted",0,"N","57","-",,0,1,
+"ct_phase_flt_spec   ","574","Emergency landing",0,"N","57","-",,0,1,
+"ct_phase_flt_spec   ","575","Emergency landing after takeoff",0,"N","57","-",,0,1,
+"ct_phase_flt_spec   ","576","Emergency descent/landing",0,"N","57","-",,0,1,
+"ct_phase_flt_spec   ","580","Maneuvering",0,"N","58","-",,0,1,
+"ct_phase_flt_spec   ","581","Maneuvering - aerial application",0,"N","58","-",,0,1,
+"ct_phase_flt_spec   ","582","Maneuvering - turn to reverse direction",0,"N","58","-",,0,1,
+"ct_phase_flt_spec   ","583","Maneuvering - turn to landing area (emergency)",0,"N","58","-",,0,1,
+"ct_phase_flt_spec   ","590","Hover",0,"N","59","-",,0,1,
+"ct_phase_flt_spec   ","591","Hover - in ground effect",0,"N","59","-",,0,1,
+"ct_phase_flt_spec   ","592","Hover - out of ground effect",0,"N","59","-",,0,1,
+"ct_phase_flt_spec   ","600","Other",0,"N","60","-",,0,1,
+"ct_phase_flt_spec   ","610","Unknown",0,"N","61","-",,0,1,
+"ct_prop_dmg         ","AFAC","Airport Facility",6,"N","06"," ",,0,0,"Keep for archived data"
+"ct_prop_dmg         ","COMM","Commercial Building",4,"N","04"," ",,0,0,"Keep for archived data"
+"ct_prop_dmg         ","CROP","Crops",8,"N","08"," ",,0,0,"Keep for archived data"
+"ct_prop_dmg         ","FENC","Fence",0,"N","09","-",,0,0,"Keep for archived data"
+"ct_prop_dmg         ","NONE","None",1,"N","01"," ",,0,0,"Keep for archived data"
+"ct_prop_dmg         ","OPRP","Other Property",10,"N","10"," ",,0,0,"Keep for archived data"
+"ct_prop_dmg         ","RESA","Residential Area",3,"N","03"," ",,0,0,"Keep for archived data"
+"ct_prop_dmg         ","RESD","Residence",2,"N","02"," ",,0,0,"Keep for archived data"
+"ct_prop_dmg         ","TREE","Trees",7,"N","07"," ",,0,0,"Keep for archived data"
+"ct_prop_dmg         ","UNK","Unknown",0,"N","00"," ",,0,0,"Keep for archived data"
+"ct_prop_dmg         ","VEHL","Vehicle",5,"N","05"," ",,0,0,"Keep for archived data"
+"ct_prop_dmg         ","WRPL","Wires, Poles",9,"N","10"," ",,0,0,"Keep for archived data"
+"ct_propeller_type   ","CONP","Controllable Pitch",2,"-","- ","-",,0,0,"Keep for archived data"
+"ct_propeller_type   ","FIXP","Fixed Pitch",1,"-","- ","-",,0,0,"Keep for archived data"
+"ct_report_type","CA","Data Collection",,,,,,0,1,
+"ct_report_type","FA","Field - Launch",,,,,,0,1,
+"ct_report_type","FAMS","Missing Aircraft",99,,,,,0,1,
+"ct_report_type","IA","Incident",,,,,,0,1,
+"ct_report_type","LA","Limited",,,,,,0,1,
+"ct_report_type","MA","Major - Launch",,,,,,0,1,
+"ct_report_type","NA","Notification Aviation",97,,,,,0,1,
+"ct_report_type","RA","Foreign - Launch",,,,,,0,1,
+"ct_report_type","SA","Special",,,,,,0,1,
+"ct_report_type","TA","Truncated Aviation",,,,,,0,1,
+"ct_report_type","WA","Foreign",,,,,,0,1,
+"ct_report_type_notuse","GA","Launch",,,,,,0,1,
+"ct_report_type_notuse","PA","Major - Public Aircraft",98,,,,,0,1,
+"ct_report_type_notuse","TA","??",,,,,,0,1,
+"ct_rwy_cond         ","DRY","Dry",1,"N","01"," ",,0,1,
+"ct_rwy_cond         ","HOLE","Holes",16,"N","16"," ",,0,1,
+"ct_rwy_cond         ","ICEC","Ice",3,"N","03"," ",,0,1,
+"ct_rwy_cond         ","RBDP","Rubber Deposits",12,"N","12"," ",,0,1,
+"ct_rwy_cond         ","ROUG","Rough",14,"N","14"," ",,0,1,
+"ct_rwy_cond         ","SH2O","Standing Water",,,,,,0,1,"New"
+"ct_rwy_cond         ","SLUH","Slush covered",15,"N","15"," ",,0,1,
+"ct_rwy_cond         ","SNCM","Snow--compacted",7,"N","07"," ",,0,0,"Keep for archived data"
+"ct_rwy_cond         ","SNCR","Snow-crusted",6,"N","06"," ",,0,0,"Keep for archived data"
+"ct_rwy_cond         ","SNDR","Snow--dry",4,"N","04"," ",,0,0,"Keep for archived data"
+"ct_rwy_cond         ","SNOW","Snow",,,,,,0,1,"New"
+"ct_rwy_cond         ","SNWT","Snow--wet",5,"N","05"," ",,0,0,"Keep for archived data"
+"ct_rwy_cond         ","SOFT","Soft",13,"N","13"," ",,0,1,
+"ct_rwy_cond         ","VEGE","Vegetation",8,"N","08"," ",,0,1,
+"ct_rwy_cond         ","WACH","Water--choppy",10,"N","10"," ",,0,1,
+"ct_rwy_cond         ","WACM","Water--calm",9,"N","09"," ",,0,1,
+"ct_rwy_cond         ","WAGL","Water--glassy",11,"N","11"," ",,0,1,
+"ct_rwy_cond         ","WET","Wet",2,"N","02"," ",,0,1,
+"ct_rwy_cond0         ","UNK","Unknown",0,"N","00"," ",,0,1,
+"ct_safety_type","ACC","Accomplishment",1,"N",,,,0,1,
+"ct_safety_type","ALR","Alert",1,"N",,,,0,1,
+"ct_safety_type","RES","Result",1,"N",,,,0,1,
+"ct_sched            ","NSCH","Non-scheduled",2,"N","02"," ",,0,1,
+"ct_sched            ","SCHD","Scheduled",1,"N","01"," ",,0,1,
+"ct_sched            ","UNK","Unknown",0,"N","00"," ",,0,0,"Keep for archived data"
+"ct_seat_crew","CTR","Center",3,"N","03"," ",,0,1,
+"ct_seat_crew","FRT","Front",4,"N","04"," ",,0,1,
+"ct_seat_crew","LEFT","Left",1,"N","01"," ",,0,1,
+"ct_seat_crew","NONE","None",7,"-","98","-"," ",0,1," Added 2/28/14"
+"ct_seat_crew","REAR","Rear",5,"N","05"," ",,0,1,
+"ct_seat_crew","RGT","Right",2,"N","02"," ",,0,1,
+"ct_seat_crew","SNGL","Single",6,"-","99","-",,0,1,
+"ct_seat_crew","UNK","Unknown",0,"N","00"," ",,0,1,
+"ct_seat_pass","CTR","Center",3,"N","3",,,0,1,
+"ct_seat_pass","FRT","Front",4,"N","4",,,0,1,
+"ct_seat_pass","LEFT","Left",1,"N","1",,,0,1,
+"ct_seat_pass","NONE","None",7,"-","98","-"," ",0,1," Added 2/28/14"
+"ct_seat_pass","REAR","Rear",5,"N","5",,,0,1,
+"ct_seat_pass","RGT","Right",2,"N","2",,,0,1,
+"ct_seat_pass","UNK","Unknown",0,"N","0",,,0,1,
+"ct_sim_case_filt","ACFT","Aircraft",2,"N",,,,0,1,
+"ct_sim_case_filt","SOE","Sequence of Events",3,"N",,,,0,1,
+"ct_sky_ceil         ","BKN","Broken",1,"N","02"," ",,0,1,
+"ct_sky_ceil         ","NONE","None",,"N","01"," ",,0,1,
+"ct_sky_ceil         ","OBSC","Obscured",5,"N","04"," ",,0,0,
+"ct_sky_ceil         ","OVC","Overcast",2,"N","03"," ",,0,1,
+"ct_sky_ceil         ","UNK","Unknown",4,"N","00"," ",,0,1,
+"ct_sky_ceil         ","VV","Indefinite (V V)",3,,," ",,0,1,
+"ct_sky_nonceil      ","BKNT","Thin Broken",4,"N","03"," ",,0,0,
+"ct_sky_nonceil      ","CLER","Clear",,"N","01"," ",,0,1,
+"ct_sky_nonceil      ","FEW","Few",1,,," ",,0,1,
+"ct_sky_nonceil      ","OVCT","Thin Overcast",6,"N","04"," ",,0,0,
+"ct_sky_nonceil      ","POBS","Partial Obscuration",5,"N","05"," ",,0,0,
+"ct_sky_nonceil      ","SCAT","Scattered",2,"N","02"," ",,0,1,
+"ct_sky_nonceil      ","UNK","Unknown",3,"N","00"," ",,0,1,
+"ct_spec_hand","GA","GA",2,,,,,0,1,"Special Handling"
+"ct_spec_hand","IIC","IIC",3,,,,,0,1,"Special Handling"
+"ct_spec_hand","IND","Industry",5,,,,,0,1,"Special Handling"
+"ct_spec_hand","PA","PA",0,,,,,0,1,"Special Handling"
+"ct_spec_hand","TDA","TDA",1,,,,,0,1,"Special Handling"
+"ct_states","AB","ALBERTA",0,,,"AB",,0,1,
+"ct_states           ","AK","ALASKA",0," ","  ","AK",,0,1,
+"ct_states           ","AL","ALABAMA",0," ","  ","AL",,0,1,
+"ct_states           ","AO","ATLANTIC OCEAN",0," ","  ","AO",,0,1,
+"ct_states           ","AR","ARKANSAS",0," ","  ","AR",,0,1,
+"ct_states","AS","AMERICAN SAMOA",0,,,,,0,1,
+"ct_states           ","AZ","ARIZONA",0," ","  ","AZ",,0,1,
+"ct_states","BC","BRITISH COLUMBIA",0,,,"BC",,0,1,
+"ct_states           ","CA","CALIFORNIA",0," ","  ","CA",,0,1,
+"ct_states           ","CB","CARIBBEAN SEA",0," ","  ","CB",,0,1,
+"ct_states           ","CO","COLORADO",0," ","  ","CO",,0,1,
+"ct_states           ","CT","CONNECTICUT",0," ","  ","CT",,0,1,
+"ct_states","CZ","CANAL ZONE",0,,,"CZ",,0,1,
+"ct_states           ","DC","DISTRICT OF COLUMBIA",0," ","  ","DC",,0,1,
+"ct_states           ","DE","DELAWARE",0," ","  ","DE",,0,1,
+"ct_states           ","FL","FLORIDA",0," ","  ","FL",,0,1,
+"ct_states           ","FM","MICRONESIA",0," ","  ","FM",,0,1,
+"ct_states","FN","FOREIGN",0,,,"FN",,0,1,
+"ct_states           ","GA","GEORGIA",0," ","  ","GA",,0,1,
+"ct_states           ","GM","GULF OF MEXICO",0," ","  ","GM",,0,1,
+"ct_states","GU","GUAM",0,,,,,0,1,
+"ct_states           ","HI","HAWAII",0," ","  ","HI",,0,1,
+"ct_states           ","IA","IOWA",0," ","  ","IA",,0,1,
+"ct_states           ","ID","IDAHO",0," ","  ","ID",,0,1,
+"ct_states           ","IL","ILLINOIS",0," ","  ","IL",,0,1,
+"ct_states           ","IN","INDIANA",0," ","  ","IN",,0,1,
+"ct_states           ","KS","KANSAS",0," ","  ","KS",,0,1,
+"ct_states           ","KY","KENTUCKY",0," ","  ","KY",,0,1,
+"ct_states           ","LA","LOUISIANA",0," ","  ","LA",,0,1,
+"ct_states           ","MA","MASSACHUSETTS",0," ","  ","MA",,0,1,
+"ct_states","MB","MANITOBA",0,,,"MB",,0,1,
+"ct_states           ","MD","MARYLAND",0," ","  ","MD",,0,1,
+"ct_states           ","ME","MAINE",0," ","  ","ME",,0,1,
+"ct_states           ","MH","MARSHALL ISLANDS",0," ","  ","MH",,0,1,
+"ct_states           ","MI","MICHIGAN",0," ","  ","MI",,0,1,
+"ct_states           ","MN","MINNESOTA",0," ","  ","MN",,0,1,
+"ct_states           ","MO","MISSOURI",0," ","  ","MO",,0,1,
+"ct_states           ","MP","NORTHERN MARIANAS",0," ","  ","MP",,0,1,
+"ct_states           ","MS","MISSISSIPPI",0," ","  ","MS",,0,1,
+"ct_states           ","MT","MONTANA",0," ","  ","MT",,0,1,
+"ct_states","NB","NEW BRUNSWICK",0,,,"NB",,0,1,
+"ct_states           ","NC","NORTH CAROLINA",0," ","  ","NC",,0,1,
+"ct_states           ","ND","NORTH DAKOTA",0," ","  ","ND",,0,1,
+"ct_states           ","NE","NEBRASKA",0," ","  ","NE",,0,1,
+"ct_states           ","NH","NEW HAMPSHIRE",0," ","  ","NH",,0,1,
+"ct_states           ","NJ","NEW JERSEY",0," ","  ","NJ",,0,1,
+"ct_states","NL","NEWFOUNDLAND AND LABRADOR",0,,,"NL",,0,1,
+"ct_states           ","NM","NEW MEXICO",0," ","  ","NM",,0,1,
+"ct_states","NS","NOVA SCOTIA",0,,,"NS",,0,1,
+"ct_states","NT","NORTHWEST TERRITORIES",0,,,"NT",,0,1,
+"ct_states","NU","NUNAVUT",0,,,"NU",,0,1,
+"ct_states           ","NV","NEVADA",0," ","  ","NV",,0,1,
+"ct_states           ","NY","NEW YORK",0," ","  ","NY",,0,1,
+"ct_states           ","OH","OHIO",0," ","  ","OH",,0,1,
+"ct_states           ","OK","OKLAHOMA",0," ","  ","OK",,0,1,
+"ct_states","ON","ONTARIO",0,,,"ON",,0,1,
+"ct_states           ","OR","OREGON",0," ","  ","OR",,0,1,
+"ct_states           ","PA","PENNSYLVANIA",0," ","  ","PA",,0,1,
+"ct_states","PE","PRINCE EDWARD ISLAND",0,,,"PE",,0,1,
+"ct_states           ","PO","PACIFIC OCEAN",0," ","  ","PO",,0,1,
+"ct_states","PR","PUERTO RICO",0,,,,,0,1,
+"ct_states","PW","PALAU",0,,,"PW",,0,1,
+"ct_states","QC","QUEBEC",0,,,"QC",,0,1,
+"ct_states           ","RI","RHODE ISLAND",0," ","  ","RI",,0,1,
+"ct_states           ","RQ","PUERTO RICO",0," ","  ","RQ",,1,1,
+"ct_states           ","SC","SOUTH CAROLINA",0," ","  ","SC",,0,1,
+"ct_states           ","SD","SOUTH DAKOTA",0," ","  ","SD",,0,1,
+"ct_states","SK","SASKATCHEWAN",0,,,"SK",,0,1,
+"ct_states           ","TN","TENNESSEE",0," ","  ","TN",,0,1,
+"ct_states           ","TX","TEXAS",0," ","  ","TX",,0,1,
+"ct_states","UN","UNKNOWN",0,,,,,0,1,
+"ct_states           ","UT","UTAH",0," ","  ","UT",,0,1,
+"ct_states           ","VA","VIRGINIA",0," ","  ","VA",,0,1,
+"ct_states","VI","US VIRGIN ISLANDS",0,,,,,0,1,
+"ct_states           ","VT","VERMONT",0," ","  ","VT",,0,1,
+"ct_states           ","WA","WASHINGTON",0," ","  ","WA",,0,1,
+"ct_states           ","WI","WISCONSIN",0," ","  ","WI",,0,1,
+"ct_states           ","WV","WEST VIRGINIA",0," ","  ","WV",,0,1,
+"ct_states           ","WY","WYOMING",0," ","  ","WY",,0,1,
+"ct_states","YT","YUKON",0,,,,,0,1,
+"ct_time_zone","ADT","Atlantic Daylight Time",,,,"ADT",,0,1,"Using avn_code for 3-5 digit time zone code"
+"ct_time_zone","AKD","Alaska Daylight Time",,,,"AKDT",,0,1,"Using avn_code for 3-5 digit time zone code"
+"ct_time_zone","AKS","Alaska Standard Time",,,,"AKST",,0,1,"Using avn_code for 3-5 digit time zone code"
+"ct_time_zone","AST","Atlantic Standard Time",,,,"AST",,0,1,"Using avn_code for 3-5 digit time zone code"
+"ct_time_zone","BST","British Summer Time",,,,"BST",,0,1,"Using avn_code for 3-5 digit time zone code"
+"ct_time_zone","CDT","Central Daylight Time",,,,"CDT",,0,1,"Using avn_code for 3-5 digit time zone code"
+"ct_time_zone","CST","Central Standard Time",,,,"CST",,0,1,"Using avn_code for 3-5 digit time zone code"
+"ct_time_zone","EDT","Eastern Daylight Time",,,,"EDT",,0,1,"Using avn_code for 3-5 digit time zone code"
+"ct_time_zone","EST","Eastern Standard Time",,,,"EST",,0,1,"Using avn_code for 3-5 digit time zone code"
+"ct_time_zone","HDT","Hawaii-Aleutian Daylight Time",,,,"HADT",,0,1,"Using avn_code for 3-5 digit time zone code"
+"ct_time_zone","HST","Hawaii-Aleutian Standard Time",,,,"HAST",,0,1,"Using avn_code for 3-5 digit time zone code"
+"ct_time_zone","LCL","Local Time (Foreign)",,,,"LOCAL",,0,1,"Using avn_code for 3-5 digit time zone code"
+"ct_time_zone","MDT","Mountain Daylight Time",,,,"MDT",,0,1,"Using avn_code for 3-5 digit time zone code"
+"ct_time_zone","MST","Mountain Standard Time",,,,"MST",,0,1,"Using avn_code for 3-5 digit time zone code"
+"ct_time_zone","PDT","Pacific Daylight Time",,,,"PDT",,0,1,"Using avn_code for 3-5 digit time zone code"
+"ct_time_zone","PST","Pacific Standard Time",,,,"PST",,0,1,"Using avn_code for 3-5 digit time zone code"
+"ct_time_zone","UTC","Coordinated Universal Time",,,,"UTC",,0,1,"Using avn_code for 3-5 digit time zone code"
+"ct_time_zone","YDT","Yukon Daylight Time",,,,"YDT",,0,1,"Using avn_code for 3-5 digit time zone code"
+"ct_time_zone","YST","Yukon Standard Time",,,,"YST",,0,1,"Using avn_code for 3-5 digit time zone code"
+"ct_turb_severity","EXTR","Extreme",6,"N",,,,0,1,
+"ct_turb_severity","LIGT","Light",2,"N",,,,0,1,
+"ct_turb_severity","MODT","Moderate",3,"N",,,,0,1,
+"ct_turb_severity","NA","N/A",1,"N",,,,0,1,
+"ct_turb_severity","SEVR","Severe",5,"N",,,,0,1,
+"ct_turb_severity","UNKN","Unknown",7,"N",,,,0,1,
+"ct_turb_type","CLRA","Clear Air",2,"N",,,,0,1,
+"ct_turb_type","CONV","Convective",4,"N",,,,0,1,
+"ct_turb_type","NONE","None",1,"N",,,,0,1,
+"ct_turb_type","TERR","Terrain-Induced",3,"N",,,,0,1,
+"ct_turb_type","UNKN","Unknown",5,"N",,,,0,1,
+"ct_type_clear       ","CRUI","Cruise",7,"N","07"," ",,0,1,
+"ct_type_clear       ","IFR","IFR",4,"N","04"," ",,0,1,
+"ct_type_clear       ","SIFR","Special IFR",5,"N","05"," ",,0,1,
+"ct_type_clear       ","SVFR","Special VFR",3,"N","03"," ",,0,1,
+"ct_type_clear       ","TRAD","Traffic Advisory",8,"N","08"," ",,0,1,
+"ct_type_clear       ","VFR","VFR",2,"N","02"," ",,0,1,
+"ct_type_clear       ","VFRF","VFR Flight Following",9,"N","09"," ",,0,1,
+"ct_type_clear       ","VTOP","VFR on top",6,"N","06"," ",,0,1,
+"ct_type_clear0       ","NONE","None",1,"N","01"," ",,0,1,"New"
+"ct_type_clear1       ","UNK","Unknown",0,"N","00"," ",,0,1,"New"
+"ct_type_fly         ","AAPL","Aerial Application",6,"N","05","6",,0,1,
+"ct_type_fly         ","ADRP","Air Drop",," ",," ",,0,1,
+"ct_type_fly         ","AOBV","Aerial Observation",7,"N","06"," ",,0,1,
+"ct_type_fly         ","ASHO","Air Race/Show",," ",," ",,0,1,
+"ct_type_fly","BANT","Banner Tow",,,,,,0,1,"New"
+"ct_type_fly         ","BUS","Business",2,"N","02","2",,0,1,
+"ct_type_fly         ","EXEC","Executive/Corporate",4,"N","04","3",,0,1,
+"ct_type_fly","EXLD","External Load",,,,,,0,1,"New"
+"ct_type_fly         ","FERY","Ferry",9,"C","09"," ",,0,1,
+"ct_type_fly","FIRF","Firefighting",,,,,,0,1,"New"
+"ct_type_fly","FLTS","Flight Test",,,,,,0,1,
+"ct_type_fly","GLDT","Glider Tow",,,,,,0,1,"New"
+"ct_type_fly         ","INST","Instructional",3,"N","03","4",,0,1,
+"ct_type_fly         ","OWRK","Other Work Use",8,"N","07"," ",,0,1,
+"ct_type_fly         ","PERS","Personal",1,"N","01","1",,0,1,
+"ct_type_fly         ","POSI","Positioning",10,"N","10"," ",,0,1,
+"ct_type_fly    ","PUBF","Public Aircraft - Federal",13,,,,,0,1,"New"
+"ct_type_fly        ","PUBL","Public Aircraft - Local",12,,,,,0,1,"New"
+"ct_type_fly  ","PUBS","Public Aircraft - State",14,,,,,0,1,"New"
+"ct_type_fly         ","PUBU","Public Aircraft",11,"N","08"," ",,0,1,
+"ct_type_fly","SKYD","Skydiving",,,,,,0,1,"New"
+"ct_type_fly         ","UNK","Unknown",100,"N","00","Z",,0,1,
+"ct_type_last_insp   ","100H","100 Hour",2,"N","02"," ",,0,1,
+"ct_type_last_insp   ","AAIP","AAIP",3,"N","03"," ",,0,1,
+"ct_type_last_insp   ","ANNL","Annual",1,"N","01"," ",,0,1,
+"ct_type_last_insp   ","COAW","Continuous Airworthiness",4,"N","04"," ",,0,1,
+"ct_type_last_insp   ","COND","Condition",,,," ",,0,1,
+"ct_type_last_insp   ","UNK","Unknown",0,"N","00"," ",,0,1,
+"ct_vfr_appr         ","FLND","Forced Landing",10,"N","10"," ",,0,1,
+"ct_vfr_appr         ","FSTP","Full Stop",7,"N","07"," ",,0,1,
+"ct_vfr_appr         ","GOAR","Go Around",5,"N","05"," ",,0,1,
+"ct_vfr_appr         ","NOE","Valley/Terrain Following",4,"N","04"," ",,0,1,
+"ct_vfr_appr         ","PLND","Precautionary Landing",11,"N","11"," ",,0,1,
+"ct_vfr_appr         ","SIFL","Simulated Forced Landing",9,"N","09"," ",,0,1,
+"ct_vfr_appr         ","STGO","Stop and Go",8,"N","08"," ",,0,1,
+"ct_vfr_appr         ","STIN","Straight-in",3,"N","03"," ",,0,1,
+"ct_vfr_appr         ","TOGO","Touch and Go",6,"N","06"," ",,0,1,
+"ct_vfr_appr         ","TPAT","Traffic Pattern",2,"N","02"," ",,0,1,
+"ct_vfr_appr0         ","NONE","None",1,"N","01"," ",,0,1,
+"ct_vfr_appr1         ","UNK","Unknown",0,"N","00"," ",,0,1,
+"ct_vis_restrct      ","BD","Blowing Dust",9,"N","09"," ",,0,0,"Data will be converted to wx_metar codes"
+"ct_vis_restrct      ","BN","Blowing Sand",11,"N","11"," ",,0,0,"Data will be converted to wx_metar codes"
+"ct_vis_restrct      ","BS","Blowing Snow",10,"N","10"," ",,0,0,"Data will be converted to wx_metar codes"
+"ct_vis_restrct      ","BY","Blowing Spray",8,"N","08"," ",,0,0,"Data will be converted to wx_metar codes"
+"ct_vis_restrct      ","D","Dust",3,"N","03"," ",,0,0,"Data will be converted to wx_metar codes"
+"ct_vis_restrct      ","F","Fog",5,"N","05"," ",,0,0,"Data will be converted to wx_metar codes"
+"ct_vis_restrct      ","GF","Ground Fog",7,"N","07"," ",,0,0,"Data will be converted to wx_metar codes"
+"ct_vis_restrct      ","H","Haze",2,"N","02"," ",,0,0,"Data will be converted to wx_metar codes"
+"ct_vis_restrct      ","IF","Ice Fog",6,"N","06"," ",,0,0,"Data will be converted to wx_metar codes"
+"ct_vis_restrct      ","K","Smoke",4,"N","04"," ",,0,0,"Data will be converted to wx_metar codes"
+"ct_vis_restrct      ","NONE","None",1,"N","01"," ",,0,0,"Data will be converted to wx_metar codes"
+"ct_vis_restrct      ","UNK","Unknown",12,"N","12"," ",,0,0,"Data will be converted to wx_metar codes"
+"ct_wind_vel         ","CALM","Calm",1,"N","01"," ",,0,1,
+"ct_wind_vel         ","LVAR","Light and Variable",2,"N","02"," ",,0,1,
+"ct_wind_vel         ","UNK","Unknown",0,"N","00"," ",,0,1,
+"ct_wx_brief         ","ARDO","Aircraft Radio",4,"N","04"," ",,0,0,"Keep for archived data"
+"ct_wx_brief         ","INPE","In Person",1,"N","01"," ",,0,0,"Keep for archived data"
+"ct_wx_brief         ","TELE","Telephone",3,"N","03"," ",,0,0,"Keep for archived data"
+"ct_wx_brief         ","TTY","Teletype",2,"N","02"," ",,0,0,"Keep for archived data"
+"ct_wx_brief         ","TVRA","TV/Radio",5,"N","05"," ",,0,0,"Keep for archived data"
+"ct_wx_brief         ","UNK","Unknown",0,"N","00"," ",,0,0,"Keep for archived data"
+"ct_wx_brief_com     ","ABBR","Abbreviated",,,," ",,0,0,"Keep for archived data"
+"ct_wx_brief_com     ","FULL","Full",2,"N","02"," ",,0,0,"Keep for archived data"
+"ct_wx_brief_com     ","NOTP","Not pertinent",1,"N","01"," ",,0,0,"Keep for archived data"
+"ct_wx_brief_com     ","PARB","Partial - limited by briefer",4,"N","04"," ",,0,0,"Keep for archived data"
+"ct_wx_brief_com     ","PARP","Partial - limited by pilot",3,"N","03"," ",,0,0,"Keep for archived data"
+"ct_wx_brief_com     ","UNK","Unknown",0,"N","00"," ",,0,0,"Keep for archived data"
+"ct_wx_brief_src     ","AUTR","Automated Report",,,,,,0,1,"New"
+"ct_wx_brief_src     ","COMP","Company",6,"N","06"," ",,0,1,
+"ct_wx_brief_src     ","COWX","Commercial Weather Service",7,"N","07"," ",,0,1,
+"ct_wx_brief_src     ","FSS","Flight Service Station",3,"N","03"," ",,0,1,
+"ct_wx_brief_src     ","MIL","Military",9,"N","09"," ",,0,1,
+"ct_wx_brief_src     ","NET","Internet",,,," ",,0,1,
+"ct_wx_brief_src     ","NORE","No record of briefing",1,"N","01"," ",,0,0,"Keep for archived data"
+"ct_wx_brief_src     ","NWS","National Weather Service",2,"N","02"," ",,0,1,
+"ct_wx_brief_src","ONB","On-board Weather",1,"N","01",,,0,1,
+"ct_wx_brief_src     ","PAAS","PATWAS",4,"N","04"," ",,0,0,"Keep for archived data"
+"ct_wx_brief_src     ","TVRA","TV/Radio Weather",8,"N","08"," ",,0,1,
+"ct_wx_brief_src     ","VRS","Voice Response System",5,"N","05"," ",,0,0,"Keep for archived data"
+"ct_wx_brief_src0","NONE","None",1,"N","01",,,0,1,
+"ct_wx_brief_src0     ","UNK","Unknown",0,"N","00"," ",,0,1,"New"
+"ct_wx_cond          ","A","Hail",4,"N","04"," ",,0,0,"Data will be converted to wx_metar codes"
+"ct_wx_cond          ","CEIL","Low Ceiling",56," ","  ","L",,1,0,"Data will be converted to wx_metar codes"
+"ct_wx_cond          ","FRST","Frost",60," ","  ","R",,1,0,"Data will be converted to wx_metar codes"
+"ct_wx_cond          ","FRTA","Frontal Activity",53," ","  ","D",,1,0,"Data will be converted to wx_metar codes"
+"ct_wx_cond          ","FRTP","Frontal Passage",58," ","  ","P",,1,0,"Data will be converted to wx_metar codes"
+"ct_wx_cond          ","FZTP","Freezing Temperature",57," ","  ","O",,1,0,"Data will be converted to wx_metar codes"
+"ct_wx_cond          ","HURR","Hurricane",51," ","  ","B",,1,0,"Data will be converted to wx_metar codes"
+"ct_wx_cond          ","IC","Ice Crystals",13,"N","13"," ",,0,0,"Data will be converted to wx_metar codes"
+"ct_wx_cond          ","IP","Ice Pellets",9,"N","09"," ",,0,0,"Data will be converted to wx_metar codes"
+"ct_wx_cond          ","IPW","Ice Pellet Shower",14,"N","14"," ",,0,0,"Data will be converted to wx_metar codes"
+"ct_wx_cond          ","L","Drizzle",8,"N","08"," ",,0,0,"Data will be converted to wx_metar codes"
+"ct_wx_cond          ","NON","None",1,"N","01"," ",,0,0,"Data will be converted to wx_metar codes"
+"ct_wx_cond          ","NOWX","Weather not a factor",61," ","  ","S",,1,0,"Data will be converted to wx_metar codes"
+"ct_wx_cond          ","R","Rain",2,"N","02","H,J",,0,0,"Data will be converted to wx_metar codes"
+"ct_wx_cond          ","RW","Rain Showers",5,"N","05"," ",,0,0,"Data will be converted to wx_metar codes"
+"ct_wx_cond          ","S","Snow",3,"N","03","M,N",,0,0,"Data will be converted to wx_metar codes"
+"ct_wx_cond          ","SG","Snow Grains",11,"N","11"," ",,0,0,"Data will be converted to wx_metar codes"
+"ct_wx_cond          ","SP","Snow Pellets",10,"N","10"," ",,0,0,"Data will be converted to wx_metar codes"
+"ct_wx_cond          ","SQAL","Line Squall",54," ","  ","E",,1,0,"Data will be converted to wx_metar codes"
+"ct_wx_cond          ","SW","Snow Shower",7,"N","07"," ",,0,0,"Data will be converted to wx_metar codes"
+"ct_wx_cond          ","TDST","Thunderstorm",62," ","  ","T",,1,0,"Data will be converted to wx_metar codes"
+"ct_wx_cond          ","TORN","Tornado",50," ","  ","A",,1,0,"Data will be converted to wx_metar codes"
+"ct_wx_cond          ","TURB","Turbulence",63," ","  ","U",,1,0,"Data will be converted to wx_metar codes"
+"ct_wx_cond          ","UNK","Unknown",0,"N","00"," ",,1,0,"Data will be converted to wx_metar codes"
+"ct_wx_cond          ","WAVE","Mountain Wave",52," ","  ","C",,1,0,"Data will be converted to wx_metar codes"
+"ct_wx_cond          ","WHIR","Whirlwind",59," ","  ","Q",,1,0,"Data will be converted to wx_metar codes"
+"ct_wx_cond          ","WIND","Wind",55," ","  ","G",,1,0,"Data will be converted to wx_metar codes"
+"ct_wx_cond          ","ZL","Freezing Drizzle",12,"N","12"," ",,0,0,"Data will be converted to wx_metar codes"
+"ct_wx_cond          ","ZR","Freezing Rain",6,"N","06","I,K",,0,0,"Data will be converted to wx_metar codes"
+"ct_wx_cond_b        ","IMC","Instrument Meteorological Cond",2,"N","02"," ",,0,1,
+"ct_wx_cond_b        ","UNK","Unknown",0,"N","00"," ",,0,1,
+"ct_wx_cond_b        ","VMC","Visual Meteorological Cond",1,"N","01"," ",,0,1,
+"ct_wx_descr","A","Patches",,,,,,0,1,"New"
+"ct_wx_descr","B","Blowing",,,,,,0,1,"New"
+"ct_wx_descr","F","Freezing",,,,,,0,1,"New"
+"ct_wx_descr","H","Showers",,,,,,0,1,"New"
+"ct_wx_descr","L","Low Drifting",,,,,,0,1,"New"
+"ct_wx_descr","N","N/A",,,,,,0,1,"New"
+"ct_wx_descr","P","Partial",,,,,,0,1,"New"
+"ct_wx_descr","S","Shallow",,,,,,0,1,"New"
+"ct_wx_descr","T","Thunderstorms",,,,,,0,1,"New"
+"ct_wx_inten","H","Heavy",,,,,,0,1,"New"
+"ct_wx_inten","L","Light",,,,,,0,1,"New"
+"ct_wx_inten","M","Moderate",,,,,,0,1,"New"
+"ct_wx_inten","N","N/A",,,,,,0,1,"New"
+"ct_wx_intenvcnty","V","Light - In the Vicinity",,,,,,0,1,"New"
+"ct_wx_intenvcnty","W","Moderate - In the Vicinity",,,,,,0,1,"New"
+"ct_wx_intenvcnty","X","Heavy - In the Vicinity",,,,,,0,1,"New"
+"ct_wx_intenvcnty","Y","In the Vicinity",,,,,,0,1,"New"
+"ct_wx_metar","Hxxx","Heavy",,,,,,0,0,"New"
+"ct_wx_metar","Lxxx","Light",,,,,,0,0,"New"
+"ct_wx_metar","Mxxx","Moderate",,,,,,0,0,"New"
+"ct_wx_metar","Nxxx",,,,,,,0,0,"New"
+"ct_wx_metar","Vxxx","Light - In the Vicinity",,,,,,0,0,"New"
+"ct_wx_metar","Wxxx","Moderate - In the Vicinity",,,,,,0,0,"New"
+"ct_wx_metar","xAxx","Patches",,,,,,0,0,"New"
+"ct_wx_metar","xBxx","Blowing",,,,,,0,0,"New"
+"ct_wx_metar","xFxx","Freezing",,,,,,0,0,"New"
+"ct_wx_metar","xHxx","Showers",,,,,,0,0,"New"
+"ct_wx_metar","xLxx","Low Drifting",,,,,,0,0,"New"
+"ct_wx_metar","xNxx",,,,,,,0,0,"New"
+"ct_wx_metar","xPxx","Partial",,,,,,0,0,"New"
+"ct_wx_metar","xSxx","Shallow",,,,,,0,0,"New"
+"ct_wx_metar","xTxx","Thunderstorms",,,,,,0,0,"New"
+"ct_wx_metar","xxBR","Mist",21,,,,,0,0,"New"
+"ct_wx_metar","xxDS","Duststorm",45,,,,,0,0,"New"
+"ct_wx_metar","xxDU","Widespread Dust",25,,,,,0,0,"New"
+"ct_wx_metar","xxDZ","Drizzle",2,,,,,0,0,"New"
+"ct_wx_metar","xxFC","Funnel Cloud",42,,,,,0,0,"New"
+"ct_wx_metar","xxFG","Fog",22,,,,,0,0,"New"
+"ct_wx_metar","xxFU","Smoke",23,,,,,0,0,"New"
+"ct_wx_metar","xxGR","Hail",8,,,,,0,0,"New"
+"ct_wx_metar","xxGS","Small Hail and/or Snow Pellets",9,,,,,0,0,"New"
+"ct_wx_metar","xxHZ","Haze",27,,,,,0,0,"New"
+"ct_wx_metar","xxIC","Ice Crystals",6,,,,,0,0,"New"
+"ct_wx_metar","xxNO","No Obscuration",20,,,,,0,0,"New"
+"ct_wx_metar","xxNP","No Precipitation",1,,,,,0,0,"New"
+"ct_wx_metar","xxPE","Ice Pellets",7,,,,,0,0,"New"
+"ct_wx_metar","xxPO","Well-Developed Dust/Sand Whirls",40,,,,,0,0,"New"
+"ct_wx_metar","xxPY","Spray",28,,,,,0,0,"New"
+"ct_wx_metar","xxRA","Rain",3,,,,,0,0,"New"
+"ct_wx_metar","xxSA","Sand",26,,,,,0,0,"New"
+"ct_wx_metar","xxSG","Snow Grains",5,,,,,0,0,"New"
+"ct_wx_metar","xxSN","Snow",4,,,,,0,0,"New"
+"ct_wx_metar","xxSQ","Squalls",41,,,,,0,0,"New"
+"ct_wx_metar","xxSS","Sandstorm",44,,,,,0,0,"New"
+"ct_wx_metar","xxTW","Tornado/Waterspout",43,,,,,0,0,"New"
+"ct_wx_metar","xxUO","Unknown Obscuration",29,,,,,0,0,"New"
+"ct_wx_metar","xxUP","Unknown Precipitation",10,,,,,0,0,"New"
+"ct_wx_metar","xxVA","Volcanic Ash",24,,,,,0,0,"New"
+"ct_wx_metar","Xxxx","Heavy - In the Vicinity",,,,,,0,0,"New"
+"ct_wx_metar","Yxxx","In the Vicinity",,,,,,0,0,"New"
+"ct_wx_phenom_obs","BR","Mist",21,,,,,0,1,"New"
+"ct_wx_phenom_obs","DU","Widespread Dust",25,,,,,0,1,"New"
+"ct_wx_phenom_obs","FG","Fog",22,,,,,0,1,"New"
+"ct_wx_phenom_obs","FU","Smoke",23,,,,,0,1,"New"
+"ct_wx_phenom_obs","HZ","Haze",27,,,,,0,1,"New"
+"ct_wx_phenom_obs","NO","No Obscuration",20,,,,,0,1,"New"
+"ct_wx_phenom_obs","PY","Spray",28,,,,,0,1,"New"
+"ct_wx_phenom_obs","SA","Sand",26,,,,,0,1,"New"
+"ct_wx_phenom_obs","UO","Unknown Obscuration",29,,,,,0,1,"New"
+"ct_wx_phenom_obs","VA","Volcanic Ash",24,,,,,0,1,"New"
+"ct_wx_phenom_oth","DS","Duststorm",45,,,,,0,1,"New"
+"ct_wx_phenom_oth","FC","Funnel Cloud",42,,,,,0,1,"New"
+"ct_wx_phenom_oth","PO","Well-Developed Dust/Sand Whirls",40,,,,,0,1,"New"
+"ct_wx_phenom_oth","SQ","Squalls",41,,,,,0,1,"New"
+"ct_wx_phenom_oth","SS","Sandstorm",44,,,,,0,1,"New"
+"ct_wx_phenom_oth","TW","Tornado/Waterspout",43,,,,,0,1,"New"
+"ct_wx_phenom_pre","DZ","Drizzle",2,,,,,0,1,"New"
+"ct_wx_phenom_pre","GR","Hail",8,,,,,0,1,"New"
+"ct_wx_phenom_pre","GS","Small Hail and/or Snow Pellets",9,,,,,0,1,"New"
+"ct_wx_phenom_pre","IC","Ice Crystals",6,,,,,0,1,"New"
+"ct_wx_phenom_pre","NP","No Precipitation",1,,,,,0,1,"New"
+"ct_wx_phenom_pre","PE","Ice Pellets",7,,,,,0,1,"New"
+"ct_wx_phenom_pre","RA","Rain",3,,,,,0,1,"New"
+"ct_wx_phenom_pre","SG","Snow Grains",5,,,,,0,1,"New"
+"ct_wx_phenom_pre","SN","Snow",4,,,,,0,1,"New"
+"ct_wx_phenom_pre","UP","Unknown Precipitation",10,,,,,0,1,"New"
+"ct_wx_prec          ","HVY","Heavy",3,"N","03"," ",,0,0,"Data will be converted to wx_metar codes"
+"ct_wx_prec          ","LGT","Light",1,"N","01"," ",,0,0,"Data will be converted to wx_metar codes"
+"ct_wx_prec          ","MOD","Moderate",2,"N","02"," ",,0,0,"Data will be converted to wx_metar codes"
+"ct_wx_prec          ","UNK","Unknown",0,"N","00"," ",,0,0,"Data will be converted to wx_metar codes"
+"ct_wx_src           ","PILO","Pilot",1,"N","01"," ",,0,1,
+"ct_wx_src           ","UNK","Unknown",0,"N","00"," ",,0,1,
+"ct_wx_src           ","WFAC","Weather Observation Facility",3,"N","03"," ",,0,1,
+"ct_wx_src           ","WIT","Witness",2,"N","02"," ",,0,1,
+"flight_craft        ","ACTU","Actual Instrument",0," ","  "," ",,0,1,
+"flight_craft        ","ALL","All",0," ","  "," ",,0,1,
+"flight_craft        ","GLDR","Glider",0," ","  "," ",,0,1,
+"flight_craft        ","LTA","Light-than-air",0," ","  "," ",,0,1,
+"flight_craft        ","MAKE","Make and Model of Accident Aircraft",0," ","  "," ",,0,1,
+"flight_craft        ","MENG","Multi-Engine",0," ","  "," ",,0,1,
+"flight_craft        ","NGHT","Night",0," ","  "," ",,0,1,
+"flight_craft        ","ROTO","Rotocraft",0," ","  "," ",,0,1,
+"flight_craft        ","SENG","Single-Engine",0," ","  "," ",,0,1,
+"flight_craft        ","SIMU","Simulated Instrument",0," ","  "," ",,0,1,
+"flight_type         ","INST","Instructor",0," ","  "," ",,0,1,
+"flight_type         ","IRCV","Instruction Received",,,,,,0,1,"New"
+"flight_type         ","L24H","Last 24 hours",0," ","  "," ",,0,1,
+"flight_type         ","L30D","Last 30 days",0," ","  "," ",,0,1,
+"flight_type         ","L90D","Last 90 days",0," ","  "," ",,0,1,
+"flight_type         ","PIC","Pilot-In-Command",0," ","  "," ",,0,1,
+"flight_type         ","TOTL","Total",0," ","  "," ",,0,1,
+"injury              ","ABRD","Aboard",7," ","  "," ",,0,1,
+"injury              ","CABN","Cabin Crew",4," ","  "," ",,0,1,
+"injury              ","CPLT","Co-Pilot",2," ","  "," ",,0,1,
+"injury              ","DSTU","Dual Student",6," ","  "," ",,0,1,
+"injury              ","FENG","Flight Engineer",3," ","  "," ",,0,1,
+"injury              ","FLTI","Flight Instructor",,,,,,0,1,
+"injury              ","KPLT","Check Pilot",8," ","  "," ",,0,1,
+"injury              ","OCRW","Other Crew",9," ","  "," ",,0,1,
+"injury              ","PAX","Passengers",5," ","  "," ",,0,1,
+"injury              ","PLT","Pilot in Command",1," ","  "," ",,0,1,
+"injury_level        ","FATL","Fatal",1,"N","4 "," ",,0,1,
+"injury_level        ","MINR","Minor",3,"N","2 "," ",,0,1,
+"injury_level        ","NONE","None",4,"N","1 "," ",,0,1,
+"injury_level        ","SERS","Serious",2,"N","3 "," ",,0,1,
+"injury_level        ","TOTL","Total",5," ","  "," ",,0,1,

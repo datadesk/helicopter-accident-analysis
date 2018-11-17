@@ -1,0 +1,8 @@
+*.json
+*.csv#
+*.mdb
+*.zip
+*.pyc
+.ipynb_checkpoints
+narratives.csv
+tidy-narratives.csv
